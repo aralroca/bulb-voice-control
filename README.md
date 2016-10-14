@@ -2,6 +2,15 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
 
+## Important
+
+* Go to `chrome://flags` and activate Bluetooth Web flag.
+* Activate Bluetooth in your device (Mac OS, Android, etc).
+* Use this bulb: http://www.gearbest.com/smart-light-bulb/pp_230349.html
+* Change bulb color saying names in Spanish 🇪🇸 (Only language available for the moment)
+
+![Smart Bulb](https://dtaqva.by3301.livefilestore.com/y3po2SZKa2jn-IZbLIGDw97hSZtDDO_K1q7HXlFecCbpso3XPQsQGKcVJYt4AYq7fGZ5inu8e2OvFZvNgXCQIaBFClOuYdfDoIzLPq6VI9k4n0Q69jyTBmOAxUfCZrQap2TXvXG5zk1dl6LJI-lcsheOM23OqDdvkGxmAt2qUbNbeg/Captura%20de%20pantalla%202016-10-14%20a%20las%2013.33.56.png)
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
