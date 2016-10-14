@@ -7,12 +7,12 @@ export interface IWindow extends Window {
 
 @Injectable()
 export class VoiceRecognitionService {
-  private recognition:any;
+  private recognition: any;
 
   constructor(private zone: NgZone) {
-     const { webkitSpeechRecognition }: IWindow = <IWindow>window;
-     this.recognition = new webkitSpeechRecognition();
-   }
+    const { webkitSpeechRecognition }: IWindow = <IWindow>window;
+    this.recognition = new webkitSpeechRecognition();
+  }
 
   /**
    * Record
@@ -31,7 +31,7 @@ export class VoiceRecognitionService {
     });
   }
 
-  stop(){
+  stop() {
     this.recognition.stop()
   }
 }

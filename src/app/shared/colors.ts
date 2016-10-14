@@ -1,12 +1,4 @@
-import { Injectable } from '@angular/core';
-
-@Injectable()
-export class ColorsService {
-
-  constructor() { }
-
-  getColors(){
-    return {
+export const colorList = {
       'azul': '#0070B8',
       'rojo': '#E60026',
       'naranja': '#FFA500',
@@ -98,7 +90,5 @@ export class ColorsService {
       'carbón': '#191919',
       'cordobán': '#3B2A21',
       'gules': '#ED1C24'
-    }
-  }
-
-}
+    };
+    

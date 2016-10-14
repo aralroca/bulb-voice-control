@@ -2,7 +2,7 @@
   <h1>{{colorName+': '+color}}</h1>
 
   <button class="rec-button" 
-          (mousedown)="connected?record():connectBluetooth()" 
+          (mousedown)="connected?record():connectBulb()" 
           (mouseup)="stop()" 
           type="button">
           <i [ngClass]="connected?'fa fa-microphone':'fa fa-bluetooth-b'" aria-hidden="true"></i>

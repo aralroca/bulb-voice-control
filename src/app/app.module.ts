@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { VoiceRecognitionService } from './voice-recognition.service';
-import { ColorsService } from './colors.service'
+import { BulbService } from './bulb.service';
 
 import { AppComponent } from './app.component';
 
@@ -16,7 +16,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     HttpModule
   ],
-  providers: [VoiceRecognitionService, ColorsService],
+  providers: [VoiceRecognitionService, BulbService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
